@@ -23,6 +23,13 @@ const Navbar = props => {
           <a href="#">Contact Us</a>
         </li>
       </ul>
+      <div className="search">
+        <input type="text" placeholder="Search" />
+        <img
+          src={require('../../assets/icons/iconfinder_search_.png')}
+          alt="Search"
+        />
+      </div>
     </div>
   );
 };
