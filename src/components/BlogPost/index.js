@@ -11,8 +11,11 @@ const BlogPost = props => {
   return (
     <div className="blogPostContainer">
       <Card>
-        <span>Featured</span>
-        <h1>Beautiful is always beautiful</h1>
+        <div className="blogHeader">
+          <span>Featured</span>
+          <h1>Beautiful is always beautiful</h1>
+          <span>posted onjuly 21,2020 bySora Blogging Tips</span>
+        </div>
       </Card>
     </div>
   );
