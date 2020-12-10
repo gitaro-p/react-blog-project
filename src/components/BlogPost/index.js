@@ -8,7 +8,14 @@ import Card from '../UI/Card';
  **/
 
 const BlogPost = props => {
-  return <Card width="70%">My first blog post</Card>;
+  return (
+    <div className="blogPostContainer">
+      <Card>
+        <span>Featured</span>
+        <h1>Beautiful is always beautiful</h1>
+      </Card>
+    </div>
+  );
 };
 
 export default BlogPost;
